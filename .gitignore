@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+out/
+runtime/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Generated resources
+src/generated/

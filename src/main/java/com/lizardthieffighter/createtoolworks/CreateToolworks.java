@@ -1,5 +1,6 @@
 package com.lizardthieffighter.createtoolworks;
 
+import com.lizardthieffighter.createtoolworks.registry.ModCreativeTabs;
 import com.lizardthieffighter.createtoolworks.registry.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -10,5 +11,6 @@ public class CreateToolworks {
 
     public CreateToolworks(IEventBus modEventBus) {
         ModItems.register(modEventBus);
+        ModCreativeTabs.register(modEventBus);
     }
 }

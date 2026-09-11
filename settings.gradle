@@ -3,10 +3,10 @@ pluginManagement {
         gradlePluginPortal()
         maven { url = 'https://maven.neoforged.net/releases' }
     }
-}
 
-plugins {
-    id 'net.neoforged.moddev' version '2.0.78'
+    plugins {
+        id 'net.neoforged.moddev' version '2.0.78'
+    }
 }
 
 rootProject.name = 'createtoolworks'

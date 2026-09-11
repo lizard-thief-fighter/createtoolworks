@@ -4,7 +4,6 @@ import com.lizardthieffighter.createtoolworks.CreateToolworks;
 import com.lizardthieffighter.createtoolworks.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
-import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 public class ToolworksItemModelProvider extends ItemModelProvider {
